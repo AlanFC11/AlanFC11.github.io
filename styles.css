@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Container{
+	justify-content: center;
+	background-color: rgba(248,247,247,1.00);
+	padding: 15px;
+	margin-top: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: "Cambria";
+}
+a{	
+	font-size: 14px;
+}
+h2{
+	text-align: end;
+	font-size: 20px;
+	color:rgba(86,86,86,1.00);
+}
+h3{
+	color: rgba(24,58,132,1.00);
+	font-family: "Consolas";
+}
+.DivLine{
+	justify-content: center;
+	background-color: rgba(24,58,132,1.00);
+	padding: 1px;
+}
+
+.skills{
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+	width: 100%;
+}
+.skills th{
+	width: 33%;
+	background-color: azure;
+}
+.skills span{
+	font-size: 28px;
+	color: rgba(24,58,132,1.00);
+}
+.skills div{
+	
+}
+.Name{
+	color: black;
+	font-size: 40px;
+}
+.Work{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.Work span{
+	font-size: 24px;
+}
+.Work p{
+	color:rgba(106,105,105,1.00);
+}
+.Work img{
+	width: 33%;
+}
+.hobbies{
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+	width: 100%;
+}
+.hobbies th{
+	width: 33%;
+	background-color: azure;
+}
