@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>imc</title>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+
+<body>
+	<div class="container">
+		<h1>Calculadora de Índice de Masa Corporal</h1>
+	<h3>Introduce los datos</h3></div>
+	<div class="container">
+	<div><span>Peso (kilogramos)<input id= "peso" type="number"> Estatura (metros)<input id= "estatura" type="number"> </span>
+		</div>
+		<div><button id ="calcular" onClick="calcularIMC()">Calcular</button></div>
+		<div id="result"></div>
+	</div>
+	<div class="container">
+	<h3>Interpreta tus resultados</h3>
+		<table>
+			<tr class="header"><td>
+				Rango mínimo
+				</td>
+				<td>
+				Rango máximo
+				</td>
+				<td>
+				Condición
+				</td>
+			</tr>
+			<tr><td>
+				1
+				</td>
+				<td>
+				18.5
+				</td>
+				<td>
+				Bajo de peso
+				</td></tr>
+			<tr><td>
+				18.5
+				</td>
+				<td>
+				24.9
+				</td>
+				<td>
+				Peso saludable
+				</td></tr>
+			<tr><td>
+				25
+				</td>
+				<td>
+				29.9
+				</td>
+				<td>
+				Sobrepeso
+				</td></tr>
+			<tr><td>
+				30
+				</td>
+				<td>
+				34.9
+				</td>
+				<td>
+				Obesidad: Grado 1
+				</td></tr>
+			<tr><td>
+				35
+				</td>
+				<td>
+				39.9
+				</td>
+				<td>
+				Obesidad: Grado 2
+				</td></tr>
+			<tr><td>
+				40
+				</td>
+				<td>
+				--
+				</td>
+				<td>
+				Obesidad mórbida
+				</td></tr>
+		
+		</table>
+	</div>
+	
+</body>
+	<script>
+		function calcularIMC(){
+			var peso = document.getElementById("peso").value;
+			var estatura = document.getElementById("estatura").value;
+			var result = "IMC: " + peso/(estatura*estatura);
+			document.getElementById("result").innerHTML = result;
+			
+		}
+	</script>
+</html>
