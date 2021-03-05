@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:azure;
+}
+
+.container{
+	padding: 15px;
+	margin-top: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: "Cambria";
+	text-align: center;
+}
+
+#result{
+	font-size: 18px;
+}
+
+table{
+	width: 100%;
+	background-color: rgba(149,223,115,1.00);
+}
+
+.header{
+	background-color: rgba(102,186,147,1.00);
+	font-size: 18px;
+}
+
+
+
